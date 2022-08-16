@@ -1,17 +1,14 @@
 import React from 'react'
 import '../App.css'
 import IndexButton from './indexbutton'
-import image from '../assets/img-hero.png'
+import image from '../assets/IMG_8443.png'
 
 
 const Hero = () => {
     return (
         <section id="hero">
             <div className="hero container">
-                <div className="hero-image">
 
-                </div>
-                <img src={image} alt="imagem da professora" />
                 <div className="hero-info">
                     <h2><span>Salve!</span> Bora causar nessas eleições?</h2>
                     <h1>Prof Paula Aparecida</h1>
@@ -20,8 +17,12 @@ const Hero = () => {
                         Não deixe de me acompanhar nessas eleições e participe da campanha!
                         Em luta pelo Ecofeminismo, rebeliao popular e libertação animal!
                         Natureza livre e povo no poder!</h3>
-                    <IndexButton />
                 </div>
+                <div className="hero-image">
+                <img src={image} alt="imagem da professora" />
+                </div>
+                    
+
             </div>
         </section>
     )
