@@ -5,18 +5,19 @@ const sobre = () => {
   return (
     <section id="sobre">
       <div className="sobre container">
-      <div className='sobre-texto'>
+        <div className='sobre-texto'>
           <h1>Quem sou eu</h1>
           <h5>Professora, ou como prefiro dizer, OPERÁRIA da educação.</h5>
           <p>
-            Atuo na Rede Pública Estadual, periferia da Zona Norte de SP (Jaçanã/Tremembé), há mais de 10 anos. Fui eleita conselheira estadual da APEOESP (Sindicato dos Professores do Ensino Oficial) e atualmente estou Codeputada Estadual na ALESP, pelo mandato coletivo da Mandata Ativista. Sou ecossocialista, feminista, antiespecista (libertação animal) e espiritualista ancestral. Minha militância é pelas lutas populares, estudantis e operárias. Sempre com as mulheres e a periferia.
+            Cria da Brasilândia, periferia de São Paulo. Neta de Dona Diva, doméstica, retirante nordestina e liderança comunitária do PT na região. Tenho Nossa Senhora Aparecida como padroeira. Me tornou vegana após experiência espiritual no tantra. Professora de português, operária da educação na periferia da ZN.
+
           </p>
         </div>
         <div className='sobre-img'>
-          <img src={image} alt="imagem da paula aparecida criança"/>
+          <img src={image} alt="imagem da paula aparecida criança" />
         </div>
-        
-        
+
+
       </div>
     </section>
   )

@@ -6,6 +6,7 @@ import Borda from '../components/borda'
 import Footer from '../components/footer'
 import Materia from '../components/materia'
 import Faixa from '../components/faixa'
+import Sobrelist from '../components/sobrelist'
 
 const Home = () => {
   return (
@@ -13,12 +14,12 @@ const Home = () => {
         <Hero />
         <Faixa />
         <Materia />
-        <Borda />
+        <Borda texto={""}/>
         <SobreInv />
-        <Borda />
+        <Borda texto={""}/>
         <Sobre />
-
-
+        <Borda texto={""}/>
+        <Sobrelist />
         <Footer />
     </div>
   )

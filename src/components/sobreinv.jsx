@@ -9,10 +9,9 @@ const sobreinv = () => {
           <img src={image} alt="imagem da paula aparecida criança"/>
         </div>
       <div className='sobre-texto'>
-          <h1>Quem sou eu</h1>
-          <h5>Professora, ou como prefiro dizer, OPERÁRIA da educação.</h5>
+          <h1>Como eu penso</h1>
           <p>
-            Atuo na Rede Pública Estadual, periferia da Zona Norte de SP (Jaçanã/Tremembé), há mais de 10 anos. Fui eleita conselheira estadual da APEOESP (Sindicato dos Professores do Ensino Oficial) e atualmente estou Codeputada Estadual na ALESP, pelo mandato coletivo da Mandata Ativista. Sou ecossocialista, feminista, antiespecista (libertação animal) e espiritualista ancestral. Minha militância é pelas lutas populares, estudantis e operárias. Sempre com as mulheres e a periferia.
+          Nós, humanos, precisamos desenvolver nossa consciência animal, somos bichos e parte da natureza. O capitalismo é guerra permanente contra animais e (nossa) natureza. A humanidade corre risco de extinção, é urgente a tarefa de construir outro sistema que seja focado na defesa da vida e não do lucro.
           </p>
         </div>
 
