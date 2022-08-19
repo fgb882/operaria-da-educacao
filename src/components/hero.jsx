@@ -15,7 +15,7 @@ const Hero = () => {
                         Também luto pelo fim da guerra contra animais e natureza.</h3>
                 </div>
                 <div className="hero-image">
-                    <img src={image} alt="imagem da professora" />
+                <img src={image} alt="imagem da professora" /> 
                 </div>
 
 
@@ -23,5 +23,7 @@ const Hero = () => {
         </section>
     )
 }
+
+
 
 export default Hero
