@@ -98,16 +98,16 @@ p {
   width: fit-content;
   font-size: 4rem;
   position: relative;
-  color: #FBE815;
+  color: #F5300C;
 }
 
 #hero h2 {
-  color: #fff;
+  color: black;
   font-size: 2rem;
 }
 
 #hero h2 span {
-  color: #FBE815;
+  color: #F5300C;
 }
 
 #hero img {
@@ -125,7 +125,7 @@ p {
 }
 
 #hero h3 {
-  color: #fff;
+  color: black;
   font-size: 1.5rem;
   font-family: 'Raleway Light', sans-serif;
   text-align: justify;
@@ -136,28 +136,12 @@ p {
 
 #faixa {
   width: 100%;
+  height: fit-content;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  background-color: purple;
 }
 
-#faixa .whatsapp {
-  width: 50vw;
-  font-size: 1.5rem;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
-  text-align: center;
-  background-color: #11EE66;
-}
-
-#faixa .vakinha {
-  width: 50vw;
-  font-size: 1.5rem;
-  padding-top: 2vw;
-  padding-bottom: 2vw;
-  text-align: center;
-  background-color: deepskyblue;
-}
 
 /* Sobre section */
 
@@ -195,10 +179,18 @@ p {
 #sobre li {
   font-size: 2rem;
   text-align: justify;
+  list-style: none;
   text-justify: inter-word;
   padding-bottom: 1.5rem;
 }
 
+#sobre li::before {
+  content: "\2022";
+  color: #F5300C;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
 #sobre h5 {
   font-size: 2.5rem;
   text-align: center;
@@ -227,16 +219,18 @@ p {
 /* Borda */
 
 .border {
-  max-width: 99%;
+  max-width: 100%;
   height: fit-content;
   padding: 2vh;
   padding-left: 0;
   padding-right: 0;
   margin: 2vh;
+  margin-bottom: 0;
+  margin-top: 0;
   margin-left: 0;
   margin-right: 0;
   color: #FBE815;
-  background-color: #F5300C;
+  background-color: #FFFF00;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
 }
@@ -297,7 +291,7 @@ p {
   justify-content: center;
   flex-direction: column;
   padding: 30px;
-  background-image: url('assets/bg-hero.jpg');
+  background-image: url('assets/bg-materia.jpg');
   background-size: cover;
   margin: 10px 5%;
   position: relative;
@@ -335,7 +329,7 @@ p {
 /* footer */
 
 #footer {
-  background-color: rgb(87, 80, 80);
+  background-color: #632a58;
 }
 
 #footer .footer {
@@ -532,4 +526,5 @@ p {
     margin-bottom: 0;
     text-transform: uppercase;
   }
+  
 }

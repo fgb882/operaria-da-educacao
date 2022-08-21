@@ -1,5 +1,5 @@
 import React from 'react'
-import image from '../assets/img-sobre.jpg'
+import image from '../assets/img-comopenso.jpg'
 
 const sobreinv = () => {
   return (

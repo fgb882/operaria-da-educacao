@@ -1,18 +1,13 @@
 import React from 'react'
 
-const Materia = () => {
+const Materia = ({title, text}) => {
     return (
         <section id="materia">
             <div className="materias container">
                 <div className="materia-top">
-                    <h1 className="materia-title">Matérias</h1>
+                    <h1 className="materia-title">{title}</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam egestas, quam vel bibendum aliquam,
-                        tortor neque consequat nibh, vitae convallis justo nisi fermentum arcu. Aliquam posuere molestie
-                        facilisis. Duis porttitor lectus non ullamcorper sodales. Donec ornare posuere lectus a venenatis.
-                        Aliquam pellentesque efficitur consequat. Donec mauris metus, eleifend quis elit et, iaculis
-                        scelerisque magna. Etiam euismod elementum fermentum. Vivamus ac mi dolor. Nulla in consectetur
-                        nibh. Pellentesque mollis erat at lectus dictum, id tincidunt libero porta!</p>
+                        {text}</p>
                 </div>
                 <div className="materia-bottom">
                     <Materiaitem text="Example text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla bibendum purus vehicula metus dapibus tristique. " title="Matéria Exemplo" materia="https://google.com" />

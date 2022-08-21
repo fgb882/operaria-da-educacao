@@ -1,15 +1,11 @@
 import React from 'react'
-import image from '../assets/img-sobre.jpg'
+import image from '../assets/img-trajetoria.jpg'
 
 
 const Sobrelist = () => {
     return (
         <section id="sobre">
             <div className="sobre container">
-                
-                <div className='sobre-img'>
-                    <img src={image} alt="imagem da paula aparecida criança" />
-                </div>
                 <div className='sobre-texto'>
                     <h1>Minha Trajetória</h1>
                     <ul>
@@ -23,6 +19,10 @@ const Sobrelist = () => {
                             Pronto</li>
                     </ul>
                 </div>
+                <div className='sobre-img'>
+                    <img src={image} alt="imagem da paula aparecida criança" />
+                </div>
+
 
             </div>
         </section>

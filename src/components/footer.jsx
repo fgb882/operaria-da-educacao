@@ -6,18 +6,22 @@ const Footer = () => {
             <div className="footer container">
 
                 <h1>Prof Paula Aparecida</h1>
-                <h5>Natureza livre e povo no poder!</h5>
+                <a href="https://icons8.com.br/"><h5>Todos os ícones por Icons8</h5></a>
+
                 <div className="social-icon">
                     <div className="social-item">
-                        <a href="https://google.com"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="facebook" /></a>
+                        <a href="https://facebook.com/profpaulaaparecida"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="facebook" /></a>
                     </div>
                     <div className="social-item">
-                        <a href="https://google.com"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="instagram" /></a>
+                        <a href="https://instagram.com/profpaulaaparecida"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" alt="instagram" /></a>
                     </div>
                     <div className="social-item">
-                        <a href="https://google.com"><img src="https://img.icons8.com/bubbles/100/000000/youtube-play.png" alt="youtube" /></a>
+                        <a href="https://youtube.com/profpaulaaparecida"><img src="https://img.icons8.com/bubbles/100/000000/youtube-play.png" alt="youtube" /></a>
                     </div>
-                </div>    
+                    <div className="social-item">
+                        <a href="https://twitter.com/profpaulaaparec"><img src="https://img.icons8.com/bubbles/50/000000/twitter-circled.png" alt="twitter" /></a>
+                    </div>
+                </div>
             </div>
 
         </section>
