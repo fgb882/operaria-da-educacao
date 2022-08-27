@@ -11,8 +11,7 @@ const Hero = () => {
                 <div className="hero-info">
                     <h2><span>Salve!</span> Bora causar nessas eleições?</h2>
                     <h1>Prof Paula Aparecida</h1>
-                    <h3>Sou Prof Paula Aparecida, candidata a deputada federal pelo PSOL/SP. Fui eleita codeputada estadual em 2018 pela Bancada Ativista. Professora de escola estadual, defendo que filho de político estude obrigatoriamente na escola pública.
-                        Também luto pelo fim da guerra contra animais e natureza.</h3>
+                    <h3>Olá, sou a Prof Paula Aparecida, candidata a Deputada Federal pelo PSOL/SP. Trabalho como operária da educação no ensino público estadual há 11 anos. Em 2018 fui eleita codeputada estadual pela Bancada Ativista e, em 2023, quero defender no Parlamento Federal a obrigatoriedade que o filho de político estude em escola pública e o fim da guerra contra animais e natureza.</h3>
                 </div>
                 <div className="hero-image">
                 <img src={image} alt="imagem da professora" /> 
