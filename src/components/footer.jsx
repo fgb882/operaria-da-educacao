@@ -7,9 +7,9 @@ const Footer = () => {
 
                 <h1>Prof Paula Aparecida</h1>
                 <div className="footerItens">
-                <h5>Telefone:</h5>
-                <h5>E-mail:</h5>
-                <h5>Sede:</h5>
+                <h5>Telefone: (11) 97043-4031</h5>
+                <h5>E-mail: contato@profpaulaaparecida.com</h5>
+
                 </div>
                 <div className="social-icon">
                     <div className="social-item">

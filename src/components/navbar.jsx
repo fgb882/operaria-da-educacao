@@ -12,8 +12,8 @@ const Navbar = () => {
             </div>
             <div className="navbarLinks">
             <a href="#materia">Clipping</a>
-            <a href="#sobre">Quem eu sou</a>
-            <a href="#sobrelist">Minha trajetória</a>
+            <a href="#sobre">Minha Origem</a>
+
             </div>
         </nav>
     )

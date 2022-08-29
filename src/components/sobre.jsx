@@ -6,7 +6,7 @@ const sobre = () => {
     <section id="sobre">
       <div className="sobre container">
         <div className='sobre-texto'>
-          <h1>Quem sou eu</h1>
+          <h1>Minha Origem</h1>
           <h5>Professora/operária da educação</h5>
           <p>
           Sou cria da Brasilândia, periferia de São Paulo, e neta de Dona Diva, doméstica, retirante nordestina e liderança comunitária do PT. Trabalho como operária da educação realizando aulas de português em escolas da quebrada. Adotei o veganismo na vida e na luta. Tenho Nossa Senhora Aparecida como padroeira.
