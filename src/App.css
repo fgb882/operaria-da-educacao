@@ -433,7 +433,7 @@ p {
   justify-content: flex-start;
   color:#F5300C;
   text-align: center;
-  padding-right: 50%;
+  padding-right: 60%;
   padding-left: 5%;
 }
 
@@ -460,7 +460,7 @@ p {
   color: #f2f2f2;
   padding: 1vh;
   padding-right: 0;
-  padding-left: 3vw;
+  padding-left: 4vw;
   font-size: 1.5rem;
   font-family: 'Raleway', sans-serif;
 }
@@ -476,6 +476,53 @@ p {
   text-align: center;
   text-decoration: none;
   align-self: center;
+}
+ /* Mote */
+
+ #mote .mote {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  padding-bottom: 2vh;
+}
+
+#mote .moteTitle {
+  font-size: 2rem;
+  color:#F5300C;
+  padding-top: 2vh
+}
+
+#mote .moteItem {
+  font-family: 'Raleway Light';
+  font-size: 1.5rem;
+  text-decoration-color: #F5300C;
+  line-height: 1.5;
+  
+}
+
+#mote ol {
+  margin: 0 0 1.5em;
+  padding: 0;
+  counter-reset: item;
+}
+
+#mote ol > li {
+  margin: 0;
+  padding: 0 0 0 2em;
+  text-indent: -2em;
+  list-style-type: none;
+  counter-increment: item;
+}
+
+#mote ol > li:before {
+  display: inline-block;
+  width: 1em;
+  padding-right: 0.5em;
+  font-weight: bold;
+  text-align: right;
+  content: counter(item) ".";
+  color:#F5300C
+
 }
 
 /* media query for tablets */
@@ -547,58 +594,27 @@ p {
   #footer {
     width: 100%;
   }
+ /* nav bar */
+  #navbar a {
+    display: inline-block;
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  #navbar .navbarLogo {
+    padding-right: 60%;
+    padding-left: 0;
+  }
+
+  #mote {
+    max-width: 95%;
+    font-size: 1.8rem;
+  }
 
 }
 
-  /* Mote */
-
-  #mote .mote {
-    display: flex;
-    flex-direction: column;
-    max-width: 95%;
-    padding-bottom: 2vh;
-  }
-
-  #mote .moteTitle {
-    font-size: 2rem;
-    color:#F5300C;
-    padding-top: 2vh
-  }
-
-  #mote .moteItem {
-    font-family: 'Raleway Light';
-    font-size: 1.5rem;
-    text-decoration-color: #F5300C;
-    line-height: 1.5;
-    
-  }
-
-  #mote ol {
-    margin: 0 0 1.5em;
-    padding: 0;
-    counter-reset: item;
-  }
-  
-  #mote ol > li {
-    margin: 0;
-    padding: 0 0 0 2em;
-    text-indent: -2em;
-    list-style-type: none;
-    counter-increment: item;
-  }
-  
-  #mote ol > li:before {
-    display: inline-block;
-    width: 1em;
-    padding-right: 0.5em;
-    font-weight: bold;
-    text-align: right;
-    content: counter(item) ".";
-    color:#F5300C
-
-  }
-
-@media only screen and (max-width: 720px) {
+ 
+@media only screen and (max-width: 895px) {
 
   .container {
    max-width: 96%;
@@ -663,8 +679,22 @@ p {
   }
 
   #navbar .navbarLogo {
-    padding-right: 20%;
+    padding-right: 40%;
     padding-left: 0;
   }
+  /* mote */
+  #mote {
+    max-width: 95%;
+  }
+  #mote ul li {
+    font-size: 0.8rem;
+  }
   
+  /* sobre */
+
+  #sobre  {
+    padding-left: 1.8vw;
+  }
+
+
 }
