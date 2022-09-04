@@ -16,5 +16,3 @@ Ele abrirá em [http://localhost:3000](http://localhost:3000) para você visuali
 
 Quando você modificar, a página irá recarregar\
 Você também vai ver erros de *lint* no console. 
-
-Esse site foi criado para a Prof Paula Aparecida, [https://www.instagram.com/profpaulaaparecida/](https://www.instagram.com/profpaulaaparecida/)
