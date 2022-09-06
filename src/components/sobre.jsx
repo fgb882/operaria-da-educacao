@@ -13,7 +13,7 @@ const sobre = () => {
           </p>
         </div>
         <div className='sobre-img'>
-          <img src={image} alt="imagem da paula aparecida criança" />
+          <img src={image} alt="imagem da paula aparecida" />
         </div>
 
 

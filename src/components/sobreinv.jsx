@@ -6,7 +6,7 @@ const sobreinv = () => {
     <section id="sobre">
       <div className="sobre container" id="sobreinv">
       <div className='sobre-img'>
-          <img src={image} alt="imagem da paula aparecida criança"/>
+          <img src={image} alt="imagem da paula aparecida"/>
         </div>
       <div className='sobre-texto'>
           <h1>Como eu penso</h1>

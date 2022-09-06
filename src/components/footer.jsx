@@ -24,6 +24,9 @@ const Footer = () => {
                     <div className="social-item">
                         <a href="https://twitter.com/profpaulaaparec"><img src="https://img.icons8.com/bubbles/50/000000/twitter-circled.png" alt="twitter" /></a>
                     </div>
+                    <div className="social-item">
+                        <a href="https://tiktok.com/@profpaulaparecida"><img src="https://img.icons8.com/bubbles/50/000000/tiktok.png" alt="tiktok" /></a>
+                    </div>
                 </div>
                 <a href="https://icons8.com.br/"><h5>Todos os ícones por Icons8</h5></a>
 
