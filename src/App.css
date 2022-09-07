@@ -529,7 +529,7 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  
+  padding-top: 5vh;
 }
 
 #materia .materia-item {
@@ -550,10 +550,15 @@ p {
 }
 
 #materia h1 {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
 }
 
 #materia h2 {
+  font-size: 3rem;
+  font-family: 'Raleway Light', sans-serif;
+}
+
+#materia h3 {
   font-size: 2rem;
   color: #F5300C;
 }
@@ -583,6 +588,45 @@ p {
 }
 /* media query for tablets */
 
+/*redirecionador */
+
+
+#redirecionador {
+  width: 95vw;
+  height: 60vh;
+  background-image: url('./assets/bg-hero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#redirecionador .redirecionador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#redirecionador .LinkRedirecionador {
+  margin-top: 3vh;
+  border-radius: 25px;
+  padding: 10px;
+  background-color: #632a58;
+  min-width: fit-content;
+  width: 30%;
+}
+
+#redirecionador span {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #FBE815
+}
+
+#redirecionador a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: #FBE815
+}
 @media only screen and (min-width: 800px) {
   .cta {
     font-size: 2rem;
@@ -664,12 +708,25 @@ p {
 
 }
 
+
  
 @media only screen and (max-width: 720px) {
 
   .container {
    max-width: 96%;
   }
+
+  .redirecionador {
+    max-width: 96%;
+  }
+
+  
+#redirecionador .LinkRedirecionador {
+
+  min-width: fit-content;
+  width: 80%;
+}
+
   
   .sobre-img{
     padding-left: 2vw;
@@ -756,4 +813,14 @@ p {
   }
   
 
+}
+
+@media only screen and (min-width: 1200px) {
+
+#materia .materia {
+  justify-content: center;
+}
+#materia .materia-item {
+  width: 1000px;
+}  
 }

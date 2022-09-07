@@ -10,8 +10,9 @@ const Materias = () => {
             <div className="materia container">
                 <div className="materia-title">
                     <h1>Matérias</h1>
-                    <p>Lead!</p>
+                    <p></p>
                 </div>
+                <h2>Causa Animal</h2>
                 <div className="materia-all">
                     <ItemMateria title="Aprovação do fim das vitrines na CPI de Venda de Animais" text="
 Escrevemos um relatório paralelo da CPI de Venda de Animais e com a mobilização de ativistas, garantimos que a versão final do relatório aprovado deixasse público a crueldade na venda de animais e que fosse encaminhada o fim das gaiolas, vitrines e a existência de microchips para acompanhar seu desenvolvimento e localização.
@@ -33,7 +34,7 @@ const ItemMateria = ({ image, alt, text, text2, title }) => {
     return (
         <div className="materia-item">
             <div className="materia-text">
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{text}</p>
                 <br></br>
                 <p>{text2}</p>
@@ -53,7 +54,7 @@ const ItemMateriaInv = ({ image, alt, text, title }) => {
                 <img src={image} alt={alt} />
             </div>
             <div className="materia-text">
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 <p>{text}</p>
                 <br></br>
 
