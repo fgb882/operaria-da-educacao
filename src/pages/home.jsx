@@ -33,7 +33,7 @@ const Home = () => {
       <Borda />
       <SobreInv />
       <Borda texto={""} />
-     <Sobrelist />
+      <Sobrelist />
       <Footer />
     </div>
   )

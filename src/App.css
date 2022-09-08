@@ -193,7 +193,7 @@ p {
   padding-bottom: 1.5rem;
 }
 
-#sobre li::before {
+#sobre .bulletpoint p::before {
   content: "\2022";
   color: #F5300C;
   display: inline-block;
@@ -203,6 +203,11 @@ p {
 #sobre h5 {
   font-size: 2.5rem;
   text-align: center;
+}
+
+#sobre .bulletpoint p {
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .sobre-img {
