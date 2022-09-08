@@ -4,7 +4,7 @@ import image from '../assets/img-comopenso.jpg'
 const sobreinv = () => {
   return (
     <section id="sobre">
-      <div className="sobre container" id="sobreinv">
+      <div className="sobre container sobreinv" id="sobreinv">
       <div className='sobre-img'>
           <img src={image} alt="imagem da paula aparecida"/>
         </div>

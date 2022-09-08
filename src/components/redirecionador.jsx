@@ -6,10 +6,12 @@ const HubRedirecionador = () => {
     <section id="redirecionador">
         <div className="redirecionador container">
             <LinkRedirecionadorPage text="Conheça minhas propostas!" link="/"/>
-            <LinkRedirecionador text="Quero apoiar financeiramente!" link="http://www.profpaulaaparecida.financie.de"/>
-            <LinkRedirecionador text="Acesse meu canal do youtube!" link="www.youtube.com/c/profpaulaaparecida"/>
-            <LinkRedirecionador text="Acesse meu facebook!" link="www.facebook.com/profpaulaaparecida" />
-            <LinkRedirecionador text="Acesse meu twitter!" link="https://twitter.com/profpaulaaparec" />
+            <LinkRedirecionador text="Fortaleça minha pré-candidatura independente." link="http://www.profpaulaaparecida.financie.de"/>
+            <LinkRedirecionador text="Acesse meu canal no YouTube!" link="www.youtube.com/c/profpaulaaparecida"/>
+            <LinkRedirecionador text="Me adiciona no Facebook!" link="www.facebook.com/profpaulaaparecida" />
+            <LinkRedirecionador text="Vem me acompanhar no Twitter" link="https://twitter.com/profpaulaaparec" />
+            <LinkRedirecionador text="Vem me acompanhar no Telegram!" link="https://t.me/ProfessoraPaulaAparecida" />
+            <LinkRedirecionador text="Veja o Diário de Codeputada!" link="https://link.medium.com/crCQ419x4lb" />
 
 
         </div>

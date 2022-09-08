@@ -20,8 +20,9 @@ const Home = () => {
   
   return (
     <div>
-      <Hero />
       <Navbar />
+      <Hero />
+      <Borda />
       <Faixa alt={"imagem do financie"} link={"https://profpaulaaparecida.financie.de"} src={imagevakinha} />
       <Mote />
       <Borda />

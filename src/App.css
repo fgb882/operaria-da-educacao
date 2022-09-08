@@ -111,6 +111,14 @@ p {
   color: #F5300C;
 }
 
+#hero h3::before {
+  content: "\2022";
+  color: #F5300C;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
 #hero img {
   width: 100%;
   height: auto;
@@ -297,8 +305,7 @@ p {
   justify-content: center;
   flex-direction: column;
   padding: 30px;
-  background-image: url('assets/bg-clipping.jpg');
-  background-size: cover;
+  background-color: #632a58;
   margin: 10px 5%;
   position: relative;
   z-index: 1;
@@ -325,6 +332,7 @@ p {
   color: white;
   margin-bottom: 10px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 #clipping .clipping-item p {
@@ -431,6 +439,7 @@ p {
 #navbar .navbarLogo {
   color:#F5300C;
   text-align: center;
+  align-self: center;
 
 }
 
@@ -492,7 +501,7 @@ p {
 
 #mote .moteItem {
   font-family: 'Raleway Light';
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-decoration-color: #F5300C;
   line-height: 1.5;
   
@@ -586,14 +595,27 @@ p {
 #materia .materia-img:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-/* media query for tablets */
+/*hamburguer*/
+.hamburguer {
+  display: none;
+  cursor: pointer;
+}
 
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #FBE815;
+}
 /*redirecionador */
 
 
 #redirecionador {
   width: 95vw;
-  height: 60vh;
+  height: 100vh;
   background-image: url('./assets/bg-hero.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -627,6 +649,9 @@ p {
   text-decoration: none;
   color: #FBE815
 }
+
+/* media query for tablets */
+
 @media only screen and (min-width: 800px) {
   .cta {
     font-size: 2rem;
@@ -651,6 +676,10 @@ p {
     font-size: 2.5rem;
   }
 
+  #hero ul li {
+    color: black;
+    font-size: 2.5rem;
+  }
   /*borda */
 
   .border {
@@ -709,8 +738,8 @@ p {
 }
 
 
- 
-@media only screen and (max-width: 720px) {
+ /* media query for small devices and smartphones */
+@media only screen and (max-width: 768px) {
 
   .container {
    max-width: 96%;
@@ -762,10 +791,6 @@ p {
     font-size: 5rem;
   }
 
-  #sobre li {
-    font-size: 2rem;
-  }
-
   /* clipping */
 
   #clipping .clipping-item p {
@@ -811,7 +836,50 @@ p {
   #materia .materia-inv {
     flex-direction: column-reverse;
   }
-  
+  /* sobre inv */
+
+.sobreinv {
+  flex-direction: column-reverse;
+}
+
+.hamburguer {
+  display: block;
+  align-self: center;
+}
+
+.hamburguer.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+
+}
+
+.hamburguer.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+
+}
+
+.hamburguer.active .bar:nth-child(2) {
+  opacity: 0;
+
+}
+
+.navbarLinks {
+  position:fixed;
+  left: -100%;
+  top: 70px;
+  gap: 0;
+  flex-direction: column;
+  width: 100%;
+  background-color: #632a58;
+  text-align: center;
+}
+
+.navbarLinks a {
+  margin: 16px 0;
+}
+
+.navbarLinks.active{
+  left: 0;
+}
 
 }
 
@@ -823,4 +891,6 @@ p {
 #materia .materia-item {
   width: 1000px;
 }  
+
+
 }

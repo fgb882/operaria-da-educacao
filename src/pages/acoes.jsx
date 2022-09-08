@@ -5,7 +5,10 @@ import Materias from '../components/item-materia'
 import Footer from '../components/footer'
 
 
- const HomeMaterias = () => {
+ const Ações = () => {
+
+
+
 
     return (
     <div>
@@ -16,4 +19,4 @@ import Footer from '../components/footer'
     )
 }
 
-export default HomeMaterias
+export default Ações
