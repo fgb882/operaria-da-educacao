@@ -21,10 +21,9 @@ const Navbar = () => {
             </div>
             <div className="navbarLinks">
                 <Link to="/acoes">Ações</Link>
-                <a href="#clipping">Clipping</a>
-                <a href="#sobre">Minha Origem</a>
+                <Link to="/manifesto">Manifesto</Link>
+                <Link to="/trajetoria">Trajetoria</Link>
                 <Link to="/links">Links</Link>
-
             </div>
             <div className="hamburguer" onClick={hamburguerClick}>
                 <span className="bar"></span>

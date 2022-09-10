@@ -442,7 +442,7 @@ p {
   padding: 2vh;
 }
 #navbar .navbarLogo {
-  color:#F5300C;
+  color: #FBE815;
   text-align: center;
   align-self: center;
 
@@ -450,20 +450,20 @@ p {
 
 #navbar .navbarLogo a {
   font-size: 2rem;
-  text-decoration: underline 0.15em #F5300C;
+  text-decoration: underline 0.15em #FBE815;
   text-underline-offset: 0.2em;
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
   transition: ease 300ms;
 }
 
 #navbar .navbarLogo a:hover{
-  text-decoration-color:#FBE815;
+  text-decoration-color:#ce3015;
   transition: ease 300ms;
-  color:#FBE815;
+  color:#ce3015;
 }
 
 #navbar a {
-  text-decoration: underline 0.15em #F5300C;
+  text-decoration: underline 0.15em #FBE815;
   text-underline-offset: 0.2em;
   transition: text-decoration-color 300ms, text-underline-offset 300ms;
   transition: ease 300ms;
@@ -473,12 +473,12 @@ p {
   padding-right: 0;
   padding-left: 4vw;
   font-size: 1.5rem;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway Light', sans-serif;
 }
 
 #navbar a:hover {
-  color:#FBE815;
-  text-decoration-color:#FBE815;
+  color:#ce3015;
+  text-decoration-color:#ce3015;
 }
 #navbar .navbarLinks {
   float: left;
@@ -657,7 +657,7 @@ p {
 
 /* media query for tablets */
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 900px) {
   .cta {
     font-size: 2rem;
     padding: 20px 60px;
@@ -731,8 +731,12 @@ p {
  /* nav bar */
   #navbar a {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 2rem;
     flex-wrap: wrap;
+  }
+
+  #navbar .navbarLogo a {
+    font-size: 2.5rem;
   }
 
   #mote {
@@ -744,7 +748,7 @@ p {
 
 
  /* media query for small devices and smartphones */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1000px) {
 
   .container {
    max-width: 96%;
@@ -830,9 +834,6 @@ p {
   
   /* sobre */
 
-  #sobre  {
-    padding-left: 1.8vw;
-  }
 
   #materia .materia-item {
     flex-direction: column;
@@ -896,6 +897,5 @@ p {
 #materia .materia-item {
   width: 1000px;
 }  
-
 
 }

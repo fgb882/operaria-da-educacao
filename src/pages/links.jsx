@@ -1,14 +1,14 @@
 import React from 'react'
 
 // Components
-import NavbarLinks from '../components/navbarLinks'
+import NavbarM from '../components/navbarmodificada'
 import HubRedirecionador from '../components/redirecionador'
 import Footer from '../components/footer'
 
 const Links = () => {
   return (
     <div className='linksbg'>
-        <NavbarLinks />
+        <NavbarM />
         <HubRedirecionador />
         <Footer />
     </div>
