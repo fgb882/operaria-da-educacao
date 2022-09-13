@@ -22,7 +22,6 @@ const NavbarM = () => {
           <Link to="/"> <b> <a href="#hero">Prof Paula Aparecida</a></b></Link>
             </div>
             <div className="navbarLinks">
-            <Link to="/">Home</Link>
             <Link to="/acoes">Ações</Link>
             <Link to="/manifesto">Manifesto</Link>
             <Link to="/trajetoria">Trajetoria</Link>

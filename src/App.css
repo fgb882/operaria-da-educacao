@@ -570,6 +570,8 @@ p {
 #materia h2 {
   font-size: 3rem;
   font-family: 'Raleway Light', sans-serif;
+  margin: 50px;
+  margin-bottom: 80px;
 }
 
 #materia h3 {
@@ -653,6 +655,50 @@ p {
   font-size: 2.5rem;
   text-decoration: none;
   color: #FBE815
+}
+
+/* texto manifesto */
+
+#manifesto .manifesto {
+  display: flex;
+  max-width: 96%;
+  flex-direction: column;
+}
+
+#manifesto .manifesto h1 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#manifesto .textomanifesto {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+/* texto trajetoria */
+
+#trajetoria .trajetoria {
+  max-width: 96%;
+}
+
+#trajetoria .trajetoria h1 {
+  font-size: 3rem;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+#trajetoria .textotrajetoria {
+  max-width: 80%;
+  margin: 0 auto;
+  text-align: justify;
+  margin-bottom: 100px;
+}
+
+#trajetoria .textotrajetoria h2 {
+  font-size: 2rem;
 }
 
 /* media query for tablets */
@@ -748,7 +794,7 @@ p {
 
 
  /* media query for small devices and smartphones */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 768px) {
 
   .container {
    max-width: 96%;
@@ -871,7 +917,7 @@ p {
 .navbarLinks {
   position:fixed;
   left: -100%;
-  top: 70px;
+  top: 50px;
   gap: 0;
   flex-direction: column;
   width: 100%;
@@ -885,6 +931,10 @@ p {
 
 .navbarLinks.active{
   left: 0;
+}
+
+#sobre {
+  margin-left: 2vw;
 }
 
 }
