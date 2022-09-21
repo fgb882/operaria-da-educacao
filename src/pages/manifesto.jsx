@@ -5,11 +5,11 @@ import Footer from '../components/footer'
 
 const Manifesto = () => {
   return (
-    <div>
+    <main>
         <NavbarM />
         <TextoManifesto />
         <Footer />
-    </div>
+    </main>
   )
 }
 

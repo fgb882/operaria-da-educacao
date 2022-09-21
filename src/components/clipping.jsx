@@ -16,6 +16,7 @@ const Clipping = ({title, text}) => {
                     <Clippingitem clipping="https://www.cartacapital.com.br/opiniao/escolas-serao-um-celeiro-de-novas-variantes-do-coronavirus/" title="Escolas serão um celeiro de novas variantes do coronavírus" text="" />
                     <Clippingitem clipping="https://oglobo.globo.com/epoca/guilherme-amado/deputada-propoe-licenca-remunerada-para-pais-cuidarem-dos-filhos-na-pandemia-24633205" title="Deputada propõe licença remunerada para pais cuidarem dos filhos na pandemia" text="" />
                     <Clippingitem clipping="https://www.cartacapital.com.br/educacao/deputada-propoe-o-cancelamento-do-ano-escolar-em-sp/" title="Deputada propõe o cancelamento do ano escolar em SP" text=""/>
+                    <Clippingitem clipping="https://alternativasocialista.com/majoritaria-do-psol-sp-se-apropria-do-fundo-partidario-para-garantir-a-eleicao-de-boulos-juliano-rillo-e-seus-apadrinhados/" title="Majoritária do PSOL SP se apropria do fundo partidário para garantir a Eleição de Boulos, Juliano, Rillo e seus apadrinhados!" />
 
                 </div>
             </div>
@@ -28,10 +29,9 @@ const Clippingitem = ({ text, title, clipping }) => {
     return (
         
         
-        <div className="clipping-item" id="clipping">
+        <div className="clipping-item">
             <a href={clipping}><h2>{title}</h2></a>
-           
-            <p>{text}</p>
+
         </div>
         
         

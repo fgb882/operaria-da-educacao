@@ -4,9 +4,9 @@ import Notfound from '../components/notfound'
 
 const PageNotFound = () => {
     return (
-        <div className="boxshadow">
+        <main className="boxshadow">
         <Notfound />
-        </div>
+        </main>
     )
 }
 

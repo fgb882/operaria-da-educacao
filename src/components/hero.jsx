@@ -13,7 +13,9 @@ const Hero = () => {
                     <h1>Prof Paula Aparecida</h1>
                     <h3>Candidata a Deputada Federal pelo PSOL/SP.</h3>
                     <h3>Trabalho como operária da educação no ensino público estadual há 11 anos.</h3>
-                    <h3>Em 2018 fui eleita codeputada estadual pela Bancada Ativista e, em 2023, quero defender no Parlamento Federal a obrigatoriedade que o filho de político estude em escola pública e o fim da guerra contra animais e natureza.</h3>
+                    <h3>Em 2018 fui eleita codeputada estadual pela Bancada Ativista e defendi a educação pública e a causa animal.</h3>
+                    <h3>Quero defender em Brasília que todo filho de político estude na Escola Pública.</h3>
+                    <h3>Luto pela libertação animal e da natureza.</h3>
 
         
                 </div>

@@ -7,11 +7,11 @@ import Footer from '../components/footer'
 
 const Links = () => {
   return (
-    <div className='linksbg'>
+    <main className='linksbg'>
         <NavbarM />
         <HubRedirecionador />
         <Footer />
-    </div>
+    </main>
   )
 }
 

@@ -7,11 +7,11 @@ import TextoTrajetoria from '../components/texto-trajetoria'
 
 const Trajetoria = () => {
   return (
-    <div>
+    <main>
         <NavbarM />
         <TextoTrajetoria></TextoTrajetoria>
         <Footer></Footer>
-    </div>
+    </main>
   )
 }
 

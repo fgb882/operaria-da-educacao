@@ -6,6 +6,7 @@ const Mote = () => {
      <div className="mote container">
         <div className="moteTitle">
           <h1>Principais propostas</h1>
+          <p>Irei lutar pela educação pública de qualidade a partir da melhoria nas condições de vida do docente e do estudante; pela defesa radical da natureza e dos animais que vivem nela; e pelo fim dos privilégios da elite econômica e política do Brasil</p>
         </div>
        <div className="moteItem">
        <ol>

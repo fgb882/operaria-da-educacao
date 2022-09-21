@@ -19,7 +19,7 @@ const Home = () => {
  
   
   return (
-    <div>
+    <main>
       <Navbar />
       <Hero />
       <Borda />
@@ -35,7 +35,7 @@ const Home = () => {
       <Borda texto={""} />
       <Sobrelist />
       <Footer />
-    </div>
+    </main>
   )
 }
 

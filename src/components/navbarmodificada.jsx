@@ -25,6 +25,7 @@ const NavbarM = () => {
             <Link to="/acoes">Ações</Link>
             <Link to="/manifesto">Manifesto</Link>
             <Link to="/trajetoria">Trajetoria</Link>
+            <Link to="/artigos">Artigos</Link>
             <Link to="/links">Links</Link>
 
             </div>

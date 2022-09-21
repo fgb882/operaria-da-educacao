@@ -11,11 +11,11 @@ import Footer from '../components/footer'
 
 
     return (
-    <div>
+    <main>
     <NavbarM />
     <Materias />
     <Footer />
-    </div>
+    </main>
     )
 }
 

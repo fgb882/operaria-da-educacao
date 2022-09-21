@@ -7,6 +7,7 @@ import Trajetoria from './pages/trajetoria';
 
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Manifesto from './pages/manifesto';
+import Artigos from './pages/artigos';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/links" element={<Links />}/>
           <Route path="/trajetoria" element={<Trajetoria />} />
           <Route path="/manifesto" element={<Manifesto />} />
+          <Route path="/artigos" element={<Artigos />} />
         </Routes>
       </BrowserRouter>
     </div>

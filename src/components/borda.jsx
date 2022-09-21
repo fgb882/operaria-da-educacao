@@ -1,9 +1,9 @@
 import React from 'react'
 
-const borda = ({texto}) => {
+const borda = () => {
   return (
     <div className='border'>
-    <h1>{texto}</h1>
+
     </div>
   )
 }
